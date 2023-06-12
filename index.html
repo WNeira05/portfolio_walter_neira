@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Walter Federico Neira</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- encabezado y menú -->
+        <header>
+            <h1 class="gradient-text">WALTER NEIRA</h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#sobremi" onclick="seleccionar()" >Sobre Mí</a>
+                <a href="#aptitudes" onclick="seleccionar()" >Aptitudes</a>
+                <a href="#curriculum" onclick="seleccionar()">Currículum</a>
+                <a href="#porfolio" onclick="seleccionar()">Portfolio</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- sección Inicio -->
+        <section id="inicio">
+            <div class="fila">
+                <div class="col">
+                    <p>Soy Walter Federico Neira</p>
+                    <h1 class="gradient-text"> Desarrollador Java Trainee</h1>
+                    <button><a href="#form" class="btn-contact">Contactame</a></button>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/wa1canva.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Sobre Mí -->
+        <section id="sobremi">
+            <div class="fila">
+                <div class="col info">
+                    <h3>Sobre Mí</h2>
+                    <p>Soy estudiante de programación de la Universidad Tecnológica Nacional. Actualmente curso la carrera de 'Desarrollador Full Stack Python' de Codo a Codo 4.0. Tambien soy estudiante autodidacta, he realizado cursos de Java, Programación Orientada a Objetos y bases de datos Relacionales entre otras tecnologías.</p>
+                    <p>Me encuentro en la busqueda de mi primer empleo en el mundo IT que tanto me apasiona, siempre buscando progresar e incorporar nuevas habilidades. </p>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/sobremi1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Aptitudes -->
+        <section id="sobremi">
+            <div class="fila">
+                <div class="col info" id="aptitudes">
+                    <h3>Aptitudes</h3>
+                     <p>Algunas de las tecnologías que tengo conocimientos.</p>
+                </div>
+                <div class="col">
+                    
+
+                    <div class="contenedor-img">
+                        <ul>
+                            <li><img src="img/JAVA.png" alt="Logo de Java"></li>
+                            <li><img src="img/HTML.png" alt="Logo de HTML"></li>
+                            <li><img src="img/CSS.png" alt="Logo de CSS"></li>
+                            <li><img src="img/JS.png" alt="Logo de JavaScript"></li>
+                            <li><img src="img/BOOTSTRAP.png" alt="Logo de Bootstrap"></li>
+                            <li><img src="img/VUE.png" alt="Logo de Vue.js"></li>
+                            <li><img src="img/MYSQL.png" alt="Logo de MySQL"></li>
+                            <li><img src="img/GIT.png" alt="Logo de Git"></li>
+                            <li><img src="img/PYTHON.png" alt="Logo de Python"></li>  
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- sección Curriculum -->
+        <section id="curriculum">
+            <h3>Currículum</h3>
+            <div class="fila">
+                <div class="col">
+                    <p class="experiencia">Experiencia Laboral</p>
+                    <!-- <h2>Mas de 6 años de experiencia como <span class="txtEspecial">Diseñador</span></h2> -->
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Cirugía Nedisur S.R.L.</h4>
+                            <p>Administrativo (2015-ACTUALIDAD)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Estudio jurídico Defilippi, Gonzalez y Asociados</h4>
+                            <p>Administrativo / Auditor (2011-2015)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Logistica Losada S.A.</h4>
+                            <p>Administrativo (2005-2011)</p>
+                        </div>
+                        <!-- <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Freepek Company</h4>
+                            <p>Diseñador Gráfico (2015-2019)</p>
+                        </div> -->
+
+                        <button><a href="https://cvdesignr.com/p/62e70f1e0d72f" target="_blank" class="btn-cv">Descargar CV</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección porfolio -->
+        <section id="porfolio">
+            <h3>Portfolio</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/DulceTentacion.png" alt="">
+                        <p class="desc"><a href="https://wneira05.github.io/TPO-v1/" target="_blank">Proyecto | Sitio Web</a></p>
+                    </div>
+                    <!-- <div class="trabajo">
+                        <img src="img/t2.jpg" alt="">
+                        <p class="desc">Trabajo 1</p>
+                    </div> -->
+                    
+                </div>
+                <div class="col">
+                    
+
+                </div>
+                <div class="col">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- sección contacto -->
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/walter.f.neira" target="_blank"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                <a href="https://www.linkedin.com/in/walterneira" target="_blank"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+                <a href="https://github.com/WNeira05" target="_blank"><i class="fa-brands fa-square-github gradient-text"></i></a>
+
+            </div>
+            <form id="form" name="formulario" action="https://formspree.io/f/xqkolrgb" method="post">
+                <div class="entrada">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="entrada">
+                    <label for="">Correo</label>
+                    <input type="email" name="correo" required>
+                </div>
+                <div class="entrada">
+                    <label for="">Mensaje</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" id="btn">Enviar</button>
+            </form>
+            <script>
+                // *** Script para el formulario -  https://formspree.io/forms/ ***
+
+                const $form = document.querySelector('#form')
+                $form.addEventListener('submit', handleSubmit)
+                async function handleSubmit(event) {
+                    event.preventDefault()
+                    const form = new FormData(this)
+                    const response = await fetch(this.action, {
+                        method: this.method,
+                        body: form,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    })
+                    if (response.ok) {
+                        this.reset()
+                        alert('Tu mensaje fue enviado correctamente. Estaré respondiéndote a la brevedad')
+                    }
+                }
+            </script>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
